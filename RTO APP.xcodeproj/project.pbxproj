@@ -16,6 +16,21 @@
 		17FFC7C0216CC51000434CF4 /* HomeTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FFC7BF216CC51000434CF4 /* HomeTableCell.swift */; };
 		17FFC7C2216CC54600434CF4 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FFC7C1216CC54600434CF4 /* Category.swift */; };
 		17FFC7C4216CC6BB00434CF4 /* HomeServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FFC7C3216CC6BB00434CF4 /* HomeServices.swift */; };
+		17FFC7C6216CD01600434CF4 /* QuestionBankVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FFC7C5216CD01600434CF4 /* QuestionBankVC.swift */; };
+		17FFC7C8216CD06300434CF4 /* SegmentControlExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FFC7C7216CD06300434CF4 /* SegmentControlExtension.swift */; };
+		17FFC7CA216CD9F100434CF4 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FFC7C9216CD9F100434CF4 /* Question.swift */; };
+		17FFC7CC216CDA4C00434CF4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FFC7CB216CDA4C00434CF4 /* Constants.swift */; };
+		17FFC7CE216CDB6900434CF4 /* QuestionsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FFC7CD216CDB6900434CF4 /* QuestionsService.swift */; };
+		17FFC7D0216CE18600434CF4 /* TextQuestionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FFC7CF216CE18600434CF4 /* TextQuestionCell.swift */; };
+		17FFC7D2216CE19B00434CF4 /* ImageQuestionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FFC7D1216CE19B00434CF4 /* ImageQuestionCell.swift */; };
+		17FFC7D4216D06CA00434CF4 /* Practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FFC7D3216D06CA00434CF4 /* Practice.swift */; };
+		17FFC7D6216D094400434CF4 /* PracticeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FFC7D5216D094400434CF4 /* PracticeVC.swift */; };
+		17FFC7D8216D096C00434CF4 /* PracticeCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FFC7D7216D096C00434CF4 /* PracticeCollectionCell.swift */; };
+		17FFC7DA216D098E00434CF4 /* PracticeQuestionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FFC7D9216D098E00434CF4 /* PracticeQuestionCell.swift */; };
+		17FFC7DC216D09AF00434CF4 /* PracticeOptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FFC7DB216D09AF00434CF4 /* PracticeOptionCell.swift */; };
+		17FFC7DE216D0B6600434CF4 /* PracticeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FFC7DD216D0B6600434CF4 /* PracticeService.swift */; };
+		17FFC7E0216D173100434CF4 /* PracticeGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FFC7DF216D173100434CF4 /* PracticeGradientView.swift */; };
+		2BA8A7D6CD5D38BBD2A3120A /* Pods_RTO_APP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73DFE93DC1DFBDD6748107D9 /* Pods_RTO_APP.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +45,23 @@
 		17FFC7BF216CC51000434CF4 /* HomeTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableCell.swift; sourceTree = "<group>"; };
 		17FFC7C1216CC54600434CF4 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		17FFC7C3216CC6BB00434CF4 /* HomeServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeServices.swift; sourceTree = "<group>"; };
+		17FFC7C5216CD01600434CF4 /* QuestionBankVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBankVC.swift; sourceTree = "<group>"; };
+		17FFC7C7216CD06300434CF4 /* SegmentControlExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentControlExtension.swift; sourceTree = "<group>"; };
+		17FFC7C9216CD9F100434CF4 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		17FFC7CB216CDA4C00434CF4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		17FFC7CD216CDB6900434CF4 /* QuestionsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsService.swift; sourceTree = "<group>"; };
+		17FFC7CF216CE18600434CF4 /* TextQuestionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextQuestionCell.swift; sourceTree = "<group>"; };
+		17FFC7D1216CE19B00434CF4 /* ImageQuestionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageQuestionCell.swift; sourceTree = "<group>"; };
+		17FFC7D3216D06CA00434CF4 /* Practice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practice.swift; sourceTree = "<group>"; };
+		17FFC7D5216D094400434CF4 /* PracticeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeVC.swift; sourceTree = "<group>"; };
+		17FFC7D7216D096C00434CF4 /* PracticeCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeCollectionCell.swift; sourceTree = "<group>"; };
+		17FFC7D9216D098E00434CF4 /* PracticeQuestionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeQuestionCell.swift; sourceTree = "<group>"; };
+		17FFC7DB216D09AF00434CF4 /* PracticeOptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeOptionCell.swift; sourceTree = "<group>"; };
+		17FFC7DD216D0B6600434CF4 /* PracticeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeService.swift; sourceTree = "<group>"; };
+		17FFC7DF216D173100434CF4 /* PracticeGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeGradientView.swift; sourceTree = "<group>"; };
+		73DFE93DC1DFBDD6748107D9 /* Pods_RTO_APP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RTO_APP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89C9293531A6F82C26FF319D /* Pods-RTO APP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RTO APP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RTO APP/Pods-RTO APP.debug.xcconfig"; sourceTree = "<group>"; };
+		96F5E5708BB6B8006006CD74 /* Pods-RTO APP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RTO APP.release.xcconfig"; path = "Pods/Target Support Files/Pods-RTO APP/Pods-RTO APP.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,17 +69,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BA8A7D6CD5D38BBD2A3120A /* Pods_RTO_APP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15314A62A64D917EEA5B2D02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73DFE93DC1DFBDD6748107D9 /* Pods_RTO_APP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		17FFC797216CBE9100434CF4 = {
 			isa = PBXGroup;
 			children = (
 				17FFC7A2216CBE9100434CF4 /* RTO APP */,
 				17FFC7A1216CBE9100434CF4 /* Products */,
+				46C59195FA0E885DB3A3BD70 /* Pods */,
+				15314A62A64D917EEA5B2D02 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,6 +121,8 @@
 			isa = PBXGroup;
 			children = (
 				17FFC7C1216CC54600434CF4 /* Category.swift */,
+				17FFC7C9216CD9F100434CF4 /* Question.swift */,
+				17FFC7D3216D06CA00434CF4 /* Practice.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -87,6 +132,11 @@
 			children = (
 				17FFC7A7216CBE9100434CF4 /* Main.storyboard */,
 				17FFC7BF216CC51000434CF4 /* HomeTableCell.swift */,
+				17FFC7CF216CE18600434CF4 /* TextQuestionCell.swift */,
+				17FFC7D1216CE19B00434CF4 /* ImageQuestionCell.swift */,
+				17FFC7D7216D096C00434CF4 /* PracticeCollectionCell.swift */,
+				17FFC7D9216D098E00434CF4 /* PracticeQuestionCell.swift */,
+				17FFC7DB216D09AF00434CF4 /* PracticeOptionCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -95,6 +145,8 @@
 			isa = PBXGroup;
 			children = (
 				17FFC7A5216CBE9100434CF4 /* HomeVC.swift */,
+				17FFC7C5216CD01600434CF4 /* QuestionBankVC.swift */,
+				17FFC7D5216D094400434CF4 /* PracticeVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -113,6 +165,8 @@
 			isa = PBXGroup;
 			children = (
 				17FFC7C3216CC6BB00434CF4 /* HomeServices.swift */,
+				17FFC7CD216CDB6900434CF4 /* QuestionsService.swift */,
+				17FFC7DD216D0B6600434CF4 /* PracticeService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -120,6 +174,7 @@
 		17FFC7BB216CBF5B00434CF4 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				17FFC7CB216CDA4C00434CF4 /* Constants.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -128,8 +183,19 @@
 			isa = PBXGroup;
 			children = (
 				17FFC7BD216CC03900434CF4 /* GradientView.swift */,
+				17FFC7C7216CD06300434CF4 /* SegmentControlExtension.swift */,
+				17FFC7DF216D173100434CF4 /* PracticeGradientView.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		46C59195FA0E885DB3A3BD70 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89C9293531A6F82C26FF319D /* Pods-RTO APP.debug.xcconfig */,
+				96F5E5708BB6B8006006CD74 /* Pods-RTO APP.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,9 +205,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17FFC7B2216CBE9300434CF4 /* Build configuration list for PBXNativeTarget "RTO APP" */;
 			buildPhases = (
+				377DECA0B7BAFC3D13009781 /* [CP] Check Pods Manifest.lock */,
 				17FFC79C216CBE9100434CF4 /* Sources */,
 				17FFC79D216CBE9100434CF4 /* Frameworks */,
 				17FFC79E216CBE9100434CF4 /* Resources */,
+				826E175F71CA97702E608CB1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -198,16 +266,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		377DECA0B7BAFC3D13009781 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RTO APP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		826E175F71CA97702E608CB1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RTO APP/Pods-RTO APP-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RTO APP/Pods-RTO APP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		17FFC79C216CBE9100434CF4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17FFC7D2216CE19B00434CF4 /* ImageQuestionCell.swift in Sources */,
+				17FFC7E0216D173100434CF4 /* PracticeGradientView.swift in Sources */,
 				17FFC7C4216CC6BB00434CF4 /* HomeServices.swift in Sources */,
+				17FFC7D4216D06CA00434CF4 /* Practice.swift in Sources */,
+				17FFC7C8216CD06300434CF4 /* SegmentControlExtension.swift in Sources */,
+				17FFC7DE216D0B6600434CF4 /* PracticeService.swift in Sources */,
 				17FFC7A6216CBE9100434CF4 /* HomeVC.swift in Sources */,
+				17FFC7CA216CD9F100434CF4 /* Question.swift in Sources */,
+				17FFC7CE216CDB6900434CF4 /* QuestionsService.swift in Sources */,
 				17FFC7C2216CC54600434CF4 /* Category.swift in Sources */,
+				17FFC7D0216CE18600434CF4 /* TextQuestionCell.swift in Sources */,
+				17FFC7CC216CDA4C00434CF4 /* Constants.swift in Sources */,
 				17FFC7A4216CBE9100434CF4 /* AppDelegate.swift in Sources */,
 				17FFC7BE216CC03900434CF4 /* GradientView.swift in Sources */,
+				17FFC7C6216CD01600434CF4 /* QuestionBankVC.swift in Sources */,
+				17FFC7D6216D094400434CF4 /* PracticeVC.swift in Sources */,
+				17FFC7D8216D096C00434CF4 /* PracticeCollectionCell.swift in Sources */,
+				17FFC7DC216D09AF00434CF4 /* PracticeOptionCell.swift in Sources */,
+				17FFC7DA216D098E00434CF4 /* PracticeQuestionCell.swift in Sources */,
 				17FFC7C0216CC51000434CF4 /* HomeTableCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,6 +473,7 @@
 		};
 		17FFC7B3216CBE9300434CF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C9293531A6F82C26FF319D /* Pods-RTO APP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -370,6 +492,7 @@
 		};
 		17FFC7B4216CBE9300434CF4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96F5E5708BB6B8006006CD74 /* Pods-RTO APP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
