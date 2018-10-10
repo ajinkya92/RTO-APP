@@ -42,6 +42,32 @@ extension HomeVC: UITableViewDelegate, UITableViewDataSource {
         
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        if indexPath.row == 0 {
+            
+            guard let questionBankVC = storyboard?.instantiateViewController(withIdentifier: "QuestionBankVC") as? QuestionBankVC else {return}
+            navigationController?.pushViewController(questionBankVC, animated: true)
+        } else if indexPath.row == 1 {
+            
+            guard let practiceVC = storyboard?.instantiateViewController(withIdentifier: "PracticeVC") as? PracticeVC else {return}
+            navigationController?.pushViewController(practiceVC, animated: true)
+            
+        } else if indexPath.row == 2 {
+            
+            guard let examInstructionVC = storyboard?.instantiateViewController(withIdentifier: "ExamInstructionVC") as? ExamInstructionVC else {return}
+            navigationController?.pushViewController(examInstructionVC, animated: true)
+        } else {
+            
+            print("Present Settings View Controller")
+        }
+        
+        
+    }
+    
+    
+    
+    
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         
         return UITableView.automaticDimension

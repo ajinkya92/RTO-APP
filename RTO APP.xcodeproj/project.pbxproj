@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		172739B3216DDB08007F6AE3 /* ExamInstructionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172739B2216DDB08007F6AE3 /* ExamInstructionVC.swift */; };
 		17FFC7A4216CBE9100434CF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FFC7A3216CBE9100434CF4 /* AppDelegate.swift */; };
 		17FFC7A6216CBE9100434CF4 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FFC7A5216CBE9100434CF4 /* HomeVC.swift */; };
 		17FFC7A9216CBE9100434CF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17FFC7A7216CBE9100434CF4 /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		172739B2216DDB08007F6AE3 /* ExamInstructionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamInstructionVC.swift; sourceTree = "<group>"; };
 		17FFC7A0216CBE9100434CF4 /* RTO APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RTO APP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		17FFC7A3216CBE9100434CF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17FFC7A5216CBE9100434CF4 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
@@ -164,6 +166,7 @@
 				17FFC7C5216CD01600434CF4 /* QuestionBankVC.swift */,
 				17FFC7D5216D094400434CF4 /* PracticeVC.swift */,
 				17FFC7E1216D2D0B00434CF4 /* ExamVC.swift */,
+				172739B2216DDB08007F6AE3 /* ExamInstructionVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -334,6 +337,7 @@
 				17FFC7C4216CC6BB00434CF4 /* HomeServices.swift in Sources */,
 				17FFC7E2216D2D0B00434CF4 /* ExamVC.swift in Sources */,
 				17FFC7E4216D2DA000434CF4 /* ExamCollectionCell.swift in Sources */,
+				172739B3216DDB08007F6AE3 /* ExamInstructionVC.swift in Sources */,
 				17FFC7D4216D06CA00434CF4 /* Practice.swift in Sources */,
 				17FFC7C8216CD06300434CF4 /* SegmentControlExtension.swift in Sources */,
 				17FFC7E6216D2F3400434CF4 /* ExamQuestionCell.swift in Sources */,

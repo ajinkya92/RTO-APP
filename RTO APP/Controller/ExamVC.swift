@@ -252,7 +252,6 @@ extension ExamVC: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let optionData = shuffeledExamData[tableView.tag]
-        let rightAnswers = shuffeledExamData[tableView.tag]
         
         if let cell = tableView.dequeueReusableCell(withIdentifier: "ExamOptionCell") as? ExamOptionCell {
             
@@ -270,6 +269,13 @@ extension ExamVC: UITableViewDelegate, UITableViewDataSource {
                 
             }
             
+            if !isAnswered {
+                
+                nextButton.isHidden = true
+            } else {
+                nextButton.isHidden = false
+            }
+            
             tableView.allowsSelection = true
             
             return cell
@@ -283,8 +289,9 @@ extension ExamVC: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        //tableView.allowsSelection = true
+        
         isAnswered = true
+        nextButton.isHidden = false
         let rightAnswers = shuffeledExamData[tableView.tag]
         
                 if isAnswered {
