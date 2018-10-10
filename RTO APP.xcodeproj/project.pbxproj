@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		172739B3216DDB08007F6AE3 /* ExamInstructionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172739B2216DDB08007F6AE3 /* ExamInstructionVC.swift */; };
+		172739B5216E69A6007F6AE3 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172739B4216E69A6007F6AE3 /* SettingsVC.swift */; };
+		172739B7216E69EA007F6AE3 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172739B6216E69EA007F6AE3 /* Settings.swift */; };
+		172739B9216E6C41007F6AE3 /* SettingsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172739B8216E6C41007F6AE3 /* SettingsService.swift */; };
+		172739BB216E6DDD007F6AE3 /* SettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172739BA216E6DDD007F6AE3 /* SettingCell.swift */; };
 		17FFC7A4216CBE9100434CF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FFC7A3216CBE9100434CF4 /* AppDelegate.swift */; };
 		17FFC7A6216CBE9100434CF4 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FFC7A5216CBE9100434CF4 /* HomeVC.swift */; };
 		17FFC7A9216CBE9100434CF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17FFC7A7216CBE9100434CF4 /* Main.storyboard */; };
@@ -42,6 +46,10 @@
 
 /* Begin PBXFileReference section */
 		172739B2216DDB08007F6AE3 /* ExamInstructionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamInstructionVC.swift; sourceTree = "<group>"; };
+		172739B4216E69A6007F6AE3 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		172739B6216E69EA007F6AE3 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		172739B8216E6C41007F6AE3 /* SettingsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsService.swift; sourceTree = "<group>"; };
+		172739BA216E6DDD007F6AE3 /* SettingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCell.swift; sourceTree = "<group>"; };
 		17FFC7A0216CBE9100434CF4 /* RTO APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RTO APP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		17FFC7A3216CBE9100434CF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17FFC7A5216CBE9100434CF4 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
@@ -138,6 +146,7 @@
 				17FFC7C9216CD9F100434CF4 /* Question.swift */,
 				17FFC7D3216D06CA00434CF4 /* Practice.swift */,
 				17FFC7E9216D3F5E00434CF4 /* Exam.swift */,
+				172739B6216E69EA007F6AE3 /* Settings.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -155,6 +164,7 @@
 				17FFC7E3216D2DA000434CF4 /* ExamCollectionCell.swift */,
 				17FFC7E5216D2F3400434CF4 /* ExamQuestionCell.swift */,
 				17FFC7E7216D2F4F00434CF4 /* ExamOptionCell.swift */,
+				172739BA216E6DDD007F6AE3 /* SettingCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -167,6 +177,7 @@
 				17FFC7D5216D094400434CF4 /* PracticeVC.swift */,
 				17FFC7E1216D2D0B00434CF4 /* ExamVC.swift */,
 				172739B2216DDB08007F6AE3 /* ExamInstructionVC.swift */,
+				172739B4216E69A6007F6AE3 /* SettingsVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -188,6 +199,7 @@
 				17FFC7CD216CDB6900434CF4 /* QuestionsService.swift */,
 				17FFC7DD216D0B6600434CF4 /* PracticeService.swift */,
 				17FFC7EB216D3FD800434CF4 /* ExamService.swift */,
+				172739B8216E6C41007F6AE3 /* SettingsService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -314,10 +326,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-RTO APP/Pods-RTO APP-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -331,6 +345,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				172739B9216E6C41007F6AE3 /* SettingsService.swift in Sources */,
+				172739B7216E69EA007F6AE3 /* Settings.swift in Sources */,
 				17FFC7D2216CE19B00434CF4 /* ImageQuestionCell.swift in Sources */,
 				17FFC7EA216D3F5E00434CF4 /* Exam.swift in Sources */,
 				17FFC7E0216D173100434CF4 /* PracticeGradientView.swift in Sources */,
@@ -344,6 +360,7 @@
 				17FFC7DE216D0B6600434CF4 /* PracticeService.swift in Sources */,
 				17FFC7A6216CBE9100434CF4 /* HomeVC.swift in Sources */,
 				17FFC7CA216CD9F100434CF4 /* Question.swift in Sources */,
+				172739B5216E69A6007F6AE3 /* SettingsVC.swift in Sources */,
 				17FFC7CE216CDB6900434CF4 /* QuestionsService.swift in Sources */,
 				17FFC7C2216CC54600434CF4 /* Category.swift in Sources */,
 				17FFC7D0216CE18600434CF4 /* TextQuestionCell.swift in Sources */,
@@ -352,6 +369,7 @@
 				17FFC7A4216CBE9100434CF4 /* AppDelegate.swift in Sources */,
 				17FFC7BE216CC03900434CF4 /* GradientView.swift in Sources */,
 				17FFC7C6216CD01600434CF4 /* QuestionBankVC.swift in Sources */,
+				172739BB216E6DDD007F6AE3 /* SettingCell.swift in Sources */,
 				17FFC7D6216D094400434CF4 /* PracticeVC.swift in Sources */,
 				17FFC7E8216D2F4F00434CF4 /* ExamOptionCell.swift in Sources */,
 				17FFC7D8216D096C00434CF4 /* PracticeCollectionCell.swift in Sources */,
@@ -507,10 +525,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YCPFBKZL7W;
 				INFOPLIST_FILE = "RTO APP/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ajinkyasonar.RTO-APP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -526,10 +541,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YCPFBKZL7W;
 				INFOPLIST_FILE = "RTO APP/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ajinkyasonar.RTO-APP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;

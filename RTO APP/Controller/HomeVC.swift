@@ -48,15 +48,20 @@ extension HomeVC: UITableViewDelegate, UITableViewDataSource {
             
             guard let questionBankVC = storyboard?.instantiateViewController(withIdentifier: "QuestionBankVC") as? QuestionBankVC else {return}
             navigationController?.pushViewController(questionBankVC, animated: true)
+            navigationController?.topViewController?.title = "Question Bank"
+            
         } else if indexPath.row == 1 {
             
             guard let practiceVC = storyboard?.instantiateViewController(withIdentifier: "PracticeVC") as? PracticeVC else {return}
             navigationController?.pushViewController(practiceVC, animated: true)
+            navigationController?.topViewController?.title = "Practice"
             
         } else if indexPath.row == 2 {
             
             guard let examInstructionVC = storyboard?.instantiateViewController(withIdentifier: "ExamInstructionVC") as? ExamInstructionVC else {return}
             navigationController?.pushViewController(examInstructionVC, animated: true)
+            navigationController?.topViewController?.title = "Exam"
+            
         } else {
             
             print("Present Settings View Controller")
