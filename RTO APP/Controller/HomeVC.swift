@@ -64,7 +64,11 @@ extension HomeVC: UITableViewDelegate, UITableViewDataSource {
             
         } else {
             
-            print("Present Settings View Controller")
+            guard let settingsVC = storyboard?.instantiateViewController(withIdentifier: "SettingsVC") as? SettingsVC else {return}
+            
+            navigationController?.pushViewController(settingsVC, animated: true)
+            navigationController?.topViewController?.title = "Settings"
+            
         }
         
         

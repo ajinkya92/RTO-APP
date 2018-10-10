@@ -27,6 +27,7 @@ class ExamInstructionVC: UIViewController {
     @IBAction func startButtonTapped(_ sender: UIButton) {
         
         guard let examVC = storyboard?.instantiateViewController(withIdentifier: "ExamVC") as? ExamVC else {return}
+        
         self.navigationController?.pushViewController(examVC, animated: true)
         
     }

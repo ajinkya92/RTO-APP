@@ -12,6 +12,8 @@
 		172739B7216E69EA007F6AE3 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172739B6216E69EA007F6AE3 /* Settings.swift */; };
 		172739B9216E6C41007F6AE3 /* SettingsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172739B8216E6C41007F6AE3 /* SettingsService.swift */; };
 		172739BB216E6DDD007F6AE3 /* SettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172739BA216E6DDD007F6AE3 /* SettingCell.swift */; };
+		172739BE216E8B21007F6AE3 /* ContactModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 172739BC216E8B21007F6AE3 /* ContactModel.xcdatamodeld */; };
+		172739C0216E9331007F6AE3 /* ContactVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172739BF216E9331007F6AE3 /* ContactVC.swift */; };
 		17FFC7A4216CBE9100434CF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FFC7A3216CBE9100434CF4 /* AppDelegate.swift */; };
 		17FFC7A6216CBE9100434CF4 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FFC7A5216CBE9100434CF4 /* HomeVC.swift */; };
 		17FFC7A9216CBE9100434CF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17FFC7A7216CBE9100434CF4 /* Main.storyboard */; };
@@ -50,6 +52,8 @@
 		172739B6216E69EA007F6AE3 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		172739B8216E6C41007F6AE3 /* SettingsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsService.swift; sourceTree = "<group>"; };
 		172739BA216E6DDD007F6AE3 /* SettingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCell.swift; sourceTree = "<group>"; };
+		172739BD216E8B21007F6AE3 /* ContactModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ContactModel.xcdatamodel; sourceTree = "<group>"; };
+		172739BF216E9331007F6AE3 /* ContactVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactVC.swift; sourceTree = "<group>"; };
 		17FFC7A0216CBE9100434CF4 /* RTO APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RTO APP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		17FFC7A3216CBE9100434CF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17FFC7A5216CBE9100434CF4 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
@@ -178,6 +182,7 @@
 				17FFC7E1216D2D0B00434CF4 /* ExamVC.swift */,
 				172739B2216DDB08007F6AE3 /* ExamInstructionVC.swift */,
 				172739B4216E69A6007F6AE3 /* SettingsVC.swift */,
+				172739BF216E9331007F6AE3 /* ContactVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -188,6 +193,7 @@
 				17FFC7A3216CBE9100434CF4 /* AppDelegate.swift */,
 				17FFC7AA216CBE9300434CF4 /* Assets.xcassets */,
 				17FFC7AC216CBE9300434CF4 /* LaunchScreen.storyboard */,
+				172739BC216E8B21007F6AE3 /* ContactModel.xcdatamodeld */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -359,6 +365,7 @@
 				17FFC7E6216D2F3400434CF4 /* ExamQuestionCell.swift in Sources */,
 				17FFC7DE216D0B6600434CF4 /* PracticeService.swift in Sources */,
 				17FFC7A6216CBE9100434CF4 /* HomeVC.swift in Sources */,
+				172739BE216E8B21007F6AE3 /* ContactModel.xcdatamodeld in Sources */,
 				17FFC7CA216CD9F100434CF4 /* Question.swift in Sources */,
 				172739B5216E69A6007F6AE3 /* SettingsVC.swift in Sources */,
 				17FFC7CE216CDB6900434CF4 /* QuestionsService.swift in Sources */,
@@ -368,6 +375,7 @@
 				17FFC7EC216D3FD800434CF4 /* ExamService.swift in Sources */,
 				17FFC7A4216CBE9100434CF4 /* AppDelegate.swift in Sources */,
 				17FFC7BE216CC03900434CF4 /* GradientView.swift in Sources */,
+				172739C0216E9331007F6AE3 /* ContactVC.swift in Sources */,
 				17FFC7C6216CD01600434CF4 /* QuestionBankVC.swift in Sources */,
 				172739BB216E6DDD007F6AE3 /* SettingCell.swift in Sources */,
 				17FFC7D6216D094400434CF4 /* PracticeVC.swift in Sources */,
@@ -525,7 +533,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YCPFBKZL7W;
 				INFOPLIST_FILE = "RTO APP/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ajinkyasonar.RTO-APP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -541,7 +552,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YCPFBKZL7W;
 				INFOPLIST_FILE = "RTO APP/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ajinkyasonar.RTO-APP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -571,6 +585,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		172739BC216E8B21007F6AE3 /* ContactModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				172739BD216E8B21007F6AE3 /* ContactModel.xcdatamodel */,
+			);
+			currentVersion = 172739BD216E8B21007F6AE3 /* ContactModel.xcdatamodel */;
+			path = ContactModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 17FFC798216CBE9100434CF4 /* Project object */;
 }

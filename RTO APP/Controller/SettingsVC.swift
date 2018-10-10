@@ -43,6 +43,26 @@ extension SettingsVC: UITableViewDelegate, UITableViewDataSource {
         
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        if indexPath.row == 0 {
+            
+            guard let contactVC = storyboard?.instantiateViewController(withIdentifier: "ContactVC") as? ContactVC else {return}
+            self.present(contactVC, animated: true, completion: nil)
+        } else if indexPath.row == 1 {
+            
+            let activityVC = UIActivityViewController(activityItems: ["Share RTO APP with all the best question series you will need to clear the RTO Exam"], applicationActivities: nil)
+            
+            activityVC.popoverPresentationController?.sourceView = self.view
+            
+            self.present(activityVC, animated: true, completion: nil)
+            
+        }
+        
+    }
+    
+    
+    
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         
         return 100
