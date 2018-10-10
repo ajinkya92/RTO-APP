@@ -14,6 +14,8 @@ let IMAGE_QUESTION_URL = "http://mapi.trycatchtech.com/v1/rto/image_question_lis
 
 let PRACTICE_URL = "http://mapi.trycatchtech.com/v1/rto/practice_question_list"
 
+let EXAM_URL = "http://mapi.trycatchtech.com/v1/rto/exam_question_list"
+
 
 
 // Completion Handlers
@@ -21,3 +23,4 @@ let PRACTICE_URL = "http://mapi.trycatchtech.com/v1/rto/practice_question_list"
 typealias textQuestionCompletionHandler = (TextQuestion?)-> ()
 typealias imageQuestionCompletionHandler = (ImageQuestion?)-> ()
 typealias practiceQuestionCompletionHandler = (Practice?) -> ()
+typealias examQuestionCompletionHandler = (Exam?) -> ()
