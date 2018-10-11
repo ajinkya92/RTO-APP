@@ -185,6 +185,8 @@ extension PracticeVC: UITableViewDelegate, UITableViewDataSource {
             cell.optionLabel.backgroundColor = UIColor.clear
         }
         
+        /*
+        
         if shouldSelectRightAnswer {
             
             if indexPath.row + 1 == Int(rightAnswer) {
@@ -201,7 +203,22 @@ extension PracticeVC: UITableViewDelegate, UITableViewDataSource {
             }
             
         }
+ 
+ */
         
+        
+        if shouldSelectRightAnswer {
+            
+            if indexPath.row + 1 == Int(rightAnswer) {
+                
+                cell.optionLabel.backgroundColor = #colorLiteral(red: 0.4666666687, green: 0.7647058964, blue: 0.2666666806, alpha: 1)
+            } else {
+                
+                cell.optionLabel.backgroundColor = #colorLiteral(red: 0.9411764741, green: 0.4980392158, blue: 0.3529411852, alpha: 1)
+                
+            }
+            
+        }
         
         return cell
         
